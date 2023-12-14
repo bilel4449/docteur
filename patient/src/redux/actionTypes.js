@@ -1,0 +1,50 @@
+export const REGISTER="REGISTER";
+export const REGISTER_SUCCES="REGISTER_SUCCES";
+export const REGISTER_FAIL="REGISTER_FAIL";
+
+
+export const LOGIN="LOGIN";
+export const LOGIN_SUCCES="LOGIN_SUCCES";
+export const LOGIN_FAIL="LOGIN_FAIL";
+
+export const GET_PROFIL="GET_PROFIL";
+export const GET_PROFIL_SUCCES="GET_PROFIL_SUCCES";
+export const GET_PROFIL_FAIL="GET_PROFIL_FAIL";
+
+export const REGISTER_R="REGISTER_R";
+export const REGISTER_R_SUCCES="REGISTER_R_SUCCES";
+export const REGISTER_R_FAIL="REGISTER_R_FAIL";
+
+
+export const EDIT_PROFIL="EDIT_PROFIL";
+export const EDIT_PROFIL_SUCCES="EDIT_PROFIL_SUCCES";
+export const EDIT_PROFIL_FAIL="EDIT_PROFIL_FAIL";
+
+export const GET_PROFIL_MED="GET_PROFIL_MED";
+export const GET_PROFIL_MED_SUCCES="GET_PROFIL_MED_SUCCES";
+export const GET_PROFIL_MED_FAIL="GET_PROFIL_MED_FAIL";
+
+
+export const GET_ONE_SUCCES="GET_ONE_SUCCES";
+export const GET_ONE="GET_ONE";
+export const GET_ONE_FAIL="GET_ONE_FAIL";
+
+export const GET_RDV="GET_RDV";
+export const GET_RDV_SUCCES="GET_RDV_SUCCES";
+export const GET_RDV_FAIL="GET_RDV_FAIL";
+
+export const DELETE_RDV="DELETE_RDV";
+export const DELETE_RDV_SUCESS="DELETE_RDV_SUCCES";
+export const DELETE_RDV_FAIL="DELETE_RDV_FAIL";
+
+
+
+
+
+
+
+
+
+
+
+
