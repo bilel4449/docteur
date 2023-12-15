@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server",
+    "start": "nodemon server.js",
     "dev": "concurrently \"npm start\" \"cd patient && npm start\""
+    
   },
   "keywords": [],
   "author": "",
