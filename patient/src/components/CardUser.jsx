@@ -52,25 +52,27 @@ const handleSubmit=(e)=>{
         contentLabel="Example Modal"
       >
 
-      <div className='div-sign'>
-        <form onSubmit={handleSubmit} >
+      <div>
+        <div className='div-sign'>
+          <form onSubmit={handleSubmit} >
         
-        {/* <label>FullName</label><br /> */}
-              <input type="text" placeholder='fullName' className='zone-modal' value={fullName} onChange={(e)=>setFullName(e.target.value)}/><br />
-              {/* <label>LastullName</label><br /> */}
-              <input type="text" placeholder='lastName' className='zone-modal'  value={lastName} onChange={(e)=>setLastName(e.target.value)} /><br />
-              {/* <label>Email</label><br /> */}
-              <input type="email" placeholder='email' className='zone-modal'  value={email} onChange={(e)=>setEmail(e.target.value)}/><br />
-              {/* <label>Age</label><br /> */}
-              <input type="text" placeholder='age' className='zone-modal'  value={age} onChange={(e)=>setAge(e.target.value)}/><br />
-              {/* <label>Date</label><br /> */}
-              <input type="text" placeholder='date' className='zone-modal'  value={date} onChange={(e)=>setDate(e.target.value)}/><br />
-              {/* <label>Adresse</label><br /> */}
-              <input type="text" placeholder='adresse' className='zone-modal'  value={adress} onChange={(e)=>setAdress(e.target.value)}/><br />
+          {/* <label>FullName</label><br /> */}
+                <input type="text" placeholder='fullName' className='zone-modal' value={fullName} onChange={(e)=>setFullName(e.target.value)}/><br />
+                {/* <label>LastullName</label><br /> */}
+                <input type="text" placeholder='lastName' className='zone-modal'  value={lastName} onChange={(e)=>setLastName(e.target.value)} /><br />
+                {/* <label>Email</label><br /> */}
+                <input type="email" placeholder='email' className='zone-modal'  value={email} onChange={(e)=>setEmail(e.target.value)}/><br />
+                {/* <label>Age</label><br /> */}
+                <input type="text" placeholder='age' className='zone-modal'  value={age} onChange={(e)=>setAge(e.target.value)}/><br />
+                {/* <label>Date</label><br /> */}
+                <input type="text" placeholder='date' className='zone-modal'  value={date} onChange={(e)=>setDate(e.target.value)}/><br />
+                {/* <label>Adresse</label><br /> */}
+                <input type="text" placeholder='adresse' className='zone-modal'  value={adress} onChange={(e)=>setAdress(e.target.value)}/><br />
         
-           <button type='submit' className='btn-modal' >Confirm</button><br />
-           <button onClick={closeModal} className='btn-modal-c'>Cancel</button><br />
-        </form>
+             <button type='submit' className='btn-modal' >Confirm</button><br />
+             <button onClick={closeModal} className='btn-modal-c'>Cancel</button><br />
+          </form>
+        </div>
       </div>
       </Modal>
        

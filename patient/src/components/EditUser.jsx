@@ -26,26 +26,27 @@ const EditUser = () => {
         dispatch(editProfil(modifUser))
     }
   return (
-    <div className='div-sign'>
-        <form  onSubmit={handleSubmit}>
-        <label>FullName</label><br />
-            <input type="text" placeholder='fullName' className='zone' value={fullName} onChange={(e)=>setFullName(e.target.value)}/><br />
-            <label>LastullName</label><br />
-            <input type="text" placeholder='lastName' className='zone' value={lastName} onChange={(e)=>setLastName(e.target.value)} /><br />
-            <label>Email</label><br />
-            <input type="email" placeholder='email' className='zone' value={email} onChange={(e)=>setEmail(e.target.value)}/><br />
-            <label>Age</label><br />
-            <input type="text" placeholder='age' className='zone' value={age} onChange={(e)=>setAge(e.target.value)}/><br />
-            <label>Specialité</label><br />
-            <input type="text" placeholder='specialité' className='zone' value={specialité} onChange={(e)=>setSpecialité(e.target.value)}/><br />
-            <label>Adresse</label><br />
-            <input type="text" placeholder='adresse' className='zone' value={adress} onChange={(e)=>setAdress(e.target.value)}/><br />
-            <label>Role</label><br />
-            <input type="text" placeholder='role user' className='zone' value={userRole} onChange={(e)=>setUserRole(e.target.value)}/><br />
-      <button type='submit' style={{backgroundColor:'blue',color:'blanchedalmond',width:'150px',height:'45px',borderRadius:'10px',marginTop:'10px',marginBottom:'10px'}}>Confirm</button><br />
-         
-        </form>
-
+    <div>
+      <div className='div-sign'>
+          <form  onSubmit={handleSubmit}>
+          <label>FullName</label><br />
+              <input type="text" placeholder='fullName' className='zone' value={fullName} onChange={(e)=>setFullName(e.target.value)}/><br />
+              <label>LastullName</label><br />
+              <input type="text" placeholder='lastName' className='zone' value={lastName} onChange={(e)=>setLastName(e.target.value)} /><br />
+              <label>Email</label><br />
+              <input type="email" placeholder='email' className='zone' value={email} onChange={(e)=>setEmail(e.target.value)}/><br />
+              <label>Age</label><br />
+              <input type="text" placeholder='age' className='zone' value={age} onChange={(e)=>setAge(e.target.value)}/><br />
+              <label>Specialité</label><br />
+              <input type="text" placeholder='specialité' className='zone' value={specialité} onChange={(e)=>setSpecialité(e.target.value)}/><br />
+              <label>Adresse</label><br />
+              <input type="text" placeholder='adresse' className='zone' value={adress} onChange={(e)=>setAdress(e.target.value)}/><br />
+              <label>Role</label><br />
+              <input type="text" placeholder='role user' className='zone' value={userRole} onChange={(e)=>setUserRole(e.target.value)}/><br />
+        <button type='submit' style={{backgroundColor:'blue',color:'blanchedalmond',width:'150px',height:'45px',borderRadius:'10px',marginTop:'10px',marginBottom:'10px'}}>Confirm</button><br />
+      
+          </form>
+      </div>
     </div>
   )
 }

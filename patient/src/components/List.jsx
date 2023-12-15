@@ -6,6 +6,9 @@ import { getall } from '../redux/actions';
 const List = () => {
   const dispatch = useDispatch();
   const {users} = useSelector(state=>state);
+
+  
+
   useEffect(() => {
     dispatch(getall());
   }, [dispatch]);

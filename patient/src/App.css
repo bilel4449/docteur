@@ -2,7 +2,7 @@
   text-align: center;
   background-color: #61dafb;
   
- position: relative;
+ 
 }
 
 .card{
@@ -128,13 +128,7 @@
   background-color: aliceblue;
   margin-top: 10px;
 }
-.body{
-  display: flex;
-  flex-direction: row;
-  margin-left: 100px;
-  
-  
-}
+
 .img-home{
   margin-top: 20px;
   height: 300px;
