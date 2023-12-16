@@ -15,7 +15,7 @@ const List = () => {
   return (
     <div>
         {users&&
-          users.map(el=><CardUser medecin={el}/>)
+        React.Children.toArray(users.map(el=><CardUser medecin={el}/>))
             
         }
         
