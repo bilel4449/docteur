@@ -33,8 +33,9 @@
   },
   "browserslist": {
     "production": [
-      "defaults and fully supports es6-module",
-      "maintained node versions"
+      ">0.5%",
+    "not dead",
+    "not op_mini all"
       
 
     ],
